@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
     command: --migrate
     ports:
-      - "8000:8000"
+      - "8910:8910"
     env_file:
       - ../backend/.env
     depends_on:
